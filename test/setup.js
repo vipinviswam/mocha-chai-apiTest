@@ -43,8 +43,8 @@ var chai        = require('chai'),
                 .set('cookie', Cookies)
                 .set('Content-Type', 'application/x-www-form-urlencoded')
                 .send({
-                  username: 'hr',
-                  password: 'hrobotics2045'
+                  username: 'user1',
+                  password: 'user1'
                 })
                 .expect(302,function(err,res){
                     if(err){
